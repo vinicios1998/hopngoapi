@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "name": "Joao",
+        "surname": "Oliveira",
+        "rate": 4.5,
+        "bio": "Estudante de Engenharia na Universidade de Aveiro. Gosto de viajar e conhecer novas pessoas."
+    },
+    {
+        "id": 2,
+        "name": "Maria",
+        "surname": "Santos",
+        "rate": 4.2,
+        "bio": "Professora de História no ensino médio. Apaixonada por literatura e música clássica."
+    },
+    {
+        "id": 3,
+        "name": "Pedro",
+        "surname": "Silva",
+        "rate": 3.8,
+        "bio": "Desenvolvedor de software especializado em aplicativos móveis. Adoro esportes ao ar livre e sou fã de tecnologia."
+    },
+    {
+        "id": 4,
+        "name": "Ana",
+        "surname": "Garcia",
+        "rate": 4.7,
+        "bio": "Nutricionista e amante da culinária saudável. Sempre em busca de novas receitas e ingredientes nutritivos."
+    },
+    {
+        "id": 5,
+        "name": "Carlos",
+        "surname": "Fernandes",
+        "rate": 4.0,
+        "bio": "Advogado especializado em direito do trabalho. Gosto de ajudar as pessoas a resolverem questões jurídicas."
+    },
+    {
+        "id": 6,
+        "name": "Laura",
+        "surname": "Rodrigues",
+        "rate": 4.3,
+        "bio": "Estudante de Psicologia apaixonada por arte e cultura. Adoro pintar e visitar museus."
+    },
+    {
+        "id": 7,
+        "name": "Ricardo",
+        "surname": "Almeida",
+        "rate": 3.9,
+        "bio": "Empreendedor no ramo de tecnologia. Amante de música eletrônica e sempre em busca de inovação."
+    },
+    {
+        "id": 8,
+        "name": "Patricia",
+        "surname": "Ferreira",
+        "rate": 4.8,
+        "bio": "Médica pediatra dedicada a cuidar da saúde das crianças. Adoro fazer trilhas e estar em contato com a natureza."
+    },
+    {
+        "id": 9,
+        "name": "Hugo",
+        "surname": "Sousa",
+        "rate": 4.6,
+        "bio": "Jornalista esportivo apaixonado por futebol. Sempre em busca das últimas notícias do mundo esportivo."
+    },
+    {
+        "id": 10,
+        "name": "Catarina",
+        "surname": "Carvalho",
+        "rate": 4.1,
+        "bio": "Designer de interiores apaixonada por decoração e arte moderna. Sempre buscando criar espaços únicos e acolhedores."
+    },
+    {
+        "id": 11,
+        "name": "Miguel",
+        "surname": "Ribeiro",
+        "rate": 4.4,
+        "bio": "Engenheiro civil especializado em construções sustentáveis. Adoro viajar e conhecer diferentes culturas."
+    },
+    {
+        "id": 12,
+        "name": "Sofia",
+        "surname": "Lima",
+        "rate": 4.7,
+        "bio": "Estudante de Arquitetura apaixonada por projetar espaços funcionais e esteticamente agradáveis."
+    },
+    {
+        "id": 13,
+        "name": "Antonio",
+        "surname": "Martins",
+        "rate": 4.3,
+        "bio": "Piloto de avião e amante da aviação. Adoro voar e explorar novos destinos."
+    },
+    {
+        "id": 14,
+        "name": "Rita",
+        "surname": "Costa",
+        "rate": 4.6,
+        "bio": "Fisioterapeuta especializada em reabilitação neurológica. Adoro ajudar meus pacientes a recuperarem sua mobilidade."
+    },
+    {
+        "id": 15,
+        "name": "Gustavo",
+        "surname": "Pereira",
+        "rate": 4.2,
+        "bio": "Estudante de Medicina com interesse em pesquisa científica. Gosto de jogar futebol nas horas vagas."
+    },
+    {
+        "id": 16,
+        "name": "Camila",
+        "surname": "Sousa",
+        "rate": 4.9,
+        "bio": "Advogada especializada em direitos humanos. Luto pela justiça e igualdade para todos."
+    },
+    {
+        "id": 17,
+        "name": "Leonardo",
+        "surname": "Fernandes",
+        "rate": 4.0,
+        "bio": "Estudante de Biologia apaixonado por animais e preservação da natureza. Adoro fazer trilhas e observar aves."
+    },
+    {
+        "id": 18,
+        "name": "Isabela",
+        "surname": "Ramos",
+        "rate": 4.7,
+        "bio": "Professora de Inglês e amante de viagens. Ensinar idiomas e explorar novas culturas são minhas paixões."
+    },
+    {
+        "id": 19,
+        "name": "Luiz",
+        "surname": "Gomes",
+        "rate": 4.3,
+        "bio": "Empresário do ramo de gastronomia. Adoro criar pratos únicos e proporcionar experiências culinárias memoráveis."
+    },
+    {
+        "id": 20,
+        "name": "Carolina",
+        "surname": "Oliveira",
+        "rate": 4.5,
+        "bio": "Estudante de Direito interessada em direitos humanos. Gosto de ler, viajar e participar de atividades voluntárias."
+    }
+]
