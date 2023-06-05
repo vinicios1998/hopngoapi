@@ -52,4 +52,4 @@ jobs:
           app-name: 'hopngoapi'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_468DC0D090324707B439C21D41DA822C }}
-          package: ./dist
+          package: .
