@@ -24,7 +24,7 @@ app.use(function (req, res, next) {
     next();
 });
 
-app.listen(3001, () => {
+app.listen(8080, () => {
     console.log('Server is running on port 3001');
 });
 
