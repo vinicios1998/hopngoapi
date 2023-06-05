@@ -16,7 +16,11 @@
     }
   },
   "include": [
-    "index.ts"
+    "index.ts",
+    "./routes",
+    "./utils",
+    "express.d.ts",
+    "types.ts"
   ],
   "exclude": [
     "dist"

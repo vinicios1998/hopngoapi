@@ -1,9 +1,10 @@
 import { CosmosClient } from '@azure/cosmos';
 import bodyParser from 'body-parser';
 import express from 'express';
-import { LoginDto, NewUserDto, TripEntity, UserEntity } from '../types'
+import { LoginDto, NewUserDto, UserEntity } from '../types'
 import dotenv from 'dotenv'
 import { generateAccessToken } from '../utils/authUtils'
+
 dotenv.config({ path: './.env' })
 
 
@@ -80,6 +81,29 @@ router.post('/login', jsonParser, async (req, res) => {
     } catch (ex) {
         console.log(ex)
         return res.status(401).json()
+    }
+});
+
+router.get('/me', async (req, res) => {
+    try {
+        console.log(req.user)
+        if (req.user) {
+
+            const query = `select * from users u where u.email='${req.user}'`
+            const user = await usersCollection.items.query(query).fetchAll()
+            if (user.resources.length) {
+                const userEntity = user.resources[0];
+                return res.status(200).json({
+                    name: userEntity.name,
+                    surname: userEntity.surname,
+                    bio: userEntity.bio,
+                });
+            }
+        }
+        return res.status(204).json()
+    } catch (ex) {
+        console.log(ex)
+        return res.status(204).json()
     }
 });
 

@@ -16,6 +16,11 @@ export interface UserEntity {
     password: string;
     bio: string;
 }
+export interface UserDto {
+    name: string;
+    surname: string;
+    bio: string;
+}
 
 export interface LoginDto {
     email: string;
@@ -27,13 +32,23 @@ export interface CityInfo {
     lat: number,
     lng: number
 }
-export interface TripEntity {
+export interface TripDto {
     id: number,
-    userId: string,
+    user: User,
     from: CityInfo,
     to: CityInfo,
     availableSeats: number
     date: Dayjs
     duration: number
     price: number
+}
+
+export interface NewTripDto {
+    userId: string,
+    from: CityInfo,
+    to: CityInfo,
+    availableSeats: number
+    date: Dayjs
+    time: Dayjs
+    duration: number
 }
