@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 });
 
 app.use((req, res, next) => {
-    if (req.url !== '/api/users/login') {
+    if (req.url !== '/api/users/login' && req.url !== '/api/users') {
         const token = req.headers['authorization']
         if (token == null) return res.sendStatus(401)
         jwt.verify(token, secret as string, (err: any, user: any) => {
